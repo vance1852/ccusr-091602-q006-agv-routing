@@ -1,0 +1,6 @@
+{
+  "project": "agv-right-of-way",
+  "lease_states": ["requested", "granted", "entered", "released", "uncertain", "expired"],
+  "control_modes": ["automatic", "safe_stop", "manual"],
+  "route_events": ["segment_closed", "heartbeat_lost", "vehicle_fault", "position_confirmed"]
+}
